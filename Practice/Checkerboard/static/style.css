@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-align: center;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+}
+td{
+    height: 50px;
+    width: 50px;
+}
+
+.color1{
+    background-color: rgb(250, 212, 218);
+}
+
+.color2{
+    background-color: rgb(196, 240, 196);
+}
+
+h1{
+    margin: 1rem;
+}

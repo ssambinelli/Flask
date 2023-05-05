@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+h3{
+    padding: 2rem;
+}
+button{
+    border-radius: 15%;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: large;
+    margin: 2rem;
+}
+
+#click{
+    background-color: rgb(253, 206, 214);
+}
+
+#click:hover, #reset{
+    background-color:whitesmoke
+}
+
+#reset{
+    background-color: rgb(184, 229, 184);
+}
+
+#reset:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+#plus-two{
+    background-color: skyblue;
+}
+
+#plus-two:hover{
+    background-color: lightyellow;
+}

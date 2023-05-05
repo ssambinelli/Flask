@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    text-align: center;
+    margin: 2rem;
+}
+
+div{
+    background-color: rgb(109, 182, 215);
+    display: inline-block;
+    border-radius: 1em;
+    height: 200px;
+    width: 200px;
+    margin: 2rem;
+}
