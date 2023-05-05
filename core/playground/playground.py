@@ -2,17 +2,16 @@ from flask import Flask, render_template
 app = Flask(__name__)  
 
 @app.route('/play')          
-def play():
-    return render_template('index.html', number = 3) 
+# def play():
+#     return render_template('index.html', number = 3) 
 
 @app.route('/play/<number>')          
-def play_number(number):
-    # print(render_template('index.html'))
-    return render_template('index.html', number = int(number))
+# def play_number(number):
+#     # print(render_template('index.html'))
+#     return render_template('index.html', number = int(number))
 
 @app.route('/play/<number>/<color>')          
-def play_color(number, color):
-    color=color
+def play_color(number=3, color='rgb(109, 182, 215)'):
     return render_template('index.html',  color=color, number = int(number))
 
 

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    margin: 0 25%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid darkblue;
+    width: 25%;
+    padding: 2rem;
+    background-color: rgb(205, 232, 242);
+    margin: 3rem auto;
+}
+
+label{
+    padding: 0.5rem 0;
+}
+
+input{
+    height: 1.5rem;
+    border-radius: 1em;
+}
+
+textarea{
+    height: 4rem;
+    border-radius: 1em;
+    padding: 5px;
+}
+
+
+
+
+
+/* Result HTML  */
+
+li{
+    list-style: none;
+}
+
+h1{
+    padding: 2rem 0;
+    color: rgb(17, 17, 61);
+}
+
+ul li h3{
+    padding: 10px 0;
+}
